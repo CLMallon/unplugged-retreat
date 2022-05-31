@@ -103,12 +103,16 @@ footer {
   width: 100%;
 }
 
-.content-wrapper {
+header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
+}
+
+.content-wrapper {
+
 }
 
 header a {
@@ -184,7 +188,9 @@ article {
 }
 
 .features-items {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fontawesome-icon {
@@ -200,6 +206,30 @@ article {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-content {
