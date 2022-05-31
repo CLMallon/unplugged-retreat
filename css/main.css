@@ -214,9 +214,18 @@ article {
 
 }
 
-.social-icons {
-
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
 }   
+
+footer .social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* ==========================================================================
    Helper classes
