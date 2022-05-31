@@ -140,10 +140,7 @@ header nav ul {
 }
 
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+
 }
 
 .hero-area {
@@ -181,10 +178,14 @@ aside {
 }
 
 article {
+
+}
+
+main .features article {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column;
+  flex-flow: column wrap;
 }
 
 .features-items {
@@ -212,24 +213,28 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact-section{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-faq {
+.faq {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-faq .content-wrapper {
+.faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .footer-content {
