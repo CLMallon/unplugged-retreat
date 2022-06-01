@@ -94,6 +94,10 @@ body {
   
 }
 
+header {
+  padding: 15px 0;
+}
+
 header,
 footer {
   display: flex;
@@ -135,6 +139,10 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 72%;
+}
+
+.footer-content {
+  padding: 50px 0;
 }
 
 footer .content-wrapper {
