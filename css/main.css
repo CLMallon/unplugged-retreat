@@ -125,7 +125,7 @@ header a {
 
 header nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-flow: row nowrap;
   width: 100%;
@@ -134,20 +134,48 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  flex-flow: row nowrap;
   width: 100%;
 }
+
+.footer-content {
+
+}
+
+.contact {
+
+}
+
+.social {
+
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}   
+
+footer .social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------- Mobile Styles - Homepage ----------*/
 
 main {
 
 }
 
+/* Hero Area */
+
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
+
+/* Aside */
 
 aside {
   display: flex;
@@ -170,10 +198,11 @@ aside {
   flex-flow: row wrap;
 }
 
+/* Features */
+
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -181,17 +210,11 @@ article {
 
 }
 
-main .features article {
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-}
-
-.features-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .fontawesome-icon {
@@ -202,12 +225,16 @@ main .features article {
 
 }
 
+/* Reviews */
+
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
+/* ==========================================================================
+   About Page
+   ========================================================================== */
 
 .mission {
   display: flex;
@@ -223,6 +250,10 @@ main .features article {
   flex-flow: row wrap;
 }
 
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
 .faq {
   display: flex;
   justify-content: center;
@@ -237,30 +268,7 @@ main .features article {
   flex-flow: row wrap;
 }
 
-.footer-content {
 
-}
-
-.contact {
-
-}
-
-.social {
-
-}
-
-footer .social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row nowrap;
-}   
-
-footer .social p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 /* ==========================================================================
    Helper classes
