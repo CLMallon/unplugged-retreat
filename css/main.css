@@ -375,6 +375,48 @@ aside {
 
 @media only screen and (min-width: 768px) {
 /*Tablet styles here*/
+
+/* General styles */
+.content-wrapper {
+  max-width: 640px;
+}  
+/* Header */
+
+header .content-wrapper {
+  width: 100%;
+}
+
+header nav {
+  width: 20%;
+}
+
+/* Hero Area */
+
+/* Aside */
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: ;
+}
+
+/* Features */
+
+
+.features .features-item-description {
+    width: 25%;
+  }
+}
+
+/* Reviews */
+
+/* Footer */
+
+footer .content-wrapper {
+  width: 65%;
+}
+
+footer .copyright {
+  width: 25%;
 }
 
 @media only screen and (min-width: 1200px) {
