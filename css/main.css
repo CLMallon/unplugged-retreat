@@ -112,7 +112,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 100%;
+  margin: 0;
 }
 
 .content-wrapper {
@@ -147,7 +147,7 @@ header nav ul {
 
 footer .content-wrapper {
   width: 55%;
-  margin: 50px 0;
+  margin: 0;
 }
 
 .contact {
@@ -168,6 +168,10 @@ footer .social p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer p {
+  margin: 0;
 }
 
 /* -------- Mobile Styles - Homepage ----------*/
@@ -231,7 +235,7 @@ aside {
 }
 
 .features-item-description {
-
+  margin: 0;
 }
 
 /* Reviews */
