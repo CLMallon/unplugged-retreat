@@ -87,11 +87,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 html {
-  margin: 0;
+  
 }
 
 body {
-  width: 90%;
+  
 }
 
 header,
@@ -112,7 +112,7 @@ header .content-wrapper {
 }
 
 .content-wrapper {
-
+  width: 95%;
 }
 
 header a {
@@ -120,7 +120,7 @@ header a {
 }
 
 .header-divider {
-  width: 100%;
+  width: 95%;
 }
 
 header nav {
@@ -128,17 +128,18 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row nowrap;
-  width: 100%;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 72%;
 }
 
-.footer-content {
-
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 .contact {
@@ -206,8 +207,8 @@ aside {
   flex-flow: row wrap;
 }
 
-article {
-
+.features article {
+  width: 78%;
 }
 
 .features .features-items {
@@ -231,6 +232,10 @@ article {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews h3 {
+  width: 95%;
 }
 /* ==========================================================================
    About Page
