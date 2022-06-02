@@ -382,34 +382,65 @@ aside {
 }  
 /* Header */
 
+header {
+  justify-content: center;
+}
+
 header .content-wrapper {
   width: 100%;
+  justify-content: flex-start;
 }
 
 header nav {
   width: 20%;
 }
 
+header nav ul {
+  justify-content: flex-end;
+}
+
 /* Hero Area */
 
 /* Aside */
 
+aside .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
   width: ;
+  justify-content: flex-start;
 }
 
 /* Features */
 
+.features article {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 
 .features .features-item-description {
     width: 25%;
-  }
 }
 
 /* Reviews */
 
+.reviews article {
+  display: flex;
+  justify-content: center;
+}
+
 /* Footer */
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
 
 footer .content-wrapper {
   width: 65%;
@@ -417,6 +448,8 @@ footer .content-wrapper {
 
 footer .copyright {
   width: 25%;
+}
+
 }
 
 @media only screen and (min-width: 1200px) {
