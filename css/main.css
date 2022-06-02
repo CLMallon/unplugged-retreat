@@ -455,6 +455,39 @@ footer .copyright {
    About Page
    ========================================================================== */
 
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.mission-content p {
+    width: 46%;
+}
+
+.mission .content-wrapper h2 {
+  margin: 0;
+  padding-bottom: 22px;
+}
+
+.mission .content-wrapper {
+  padding: 98px 0;
+}
+
+.contact-section .content-wrapper {
+  padding: 87px 0;
+}
+
+.contact-section .content-wrapper h2 {
+    width: 80%;
+    margin: 0;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
 
 /* ==========================================================================
    FAQ Page
