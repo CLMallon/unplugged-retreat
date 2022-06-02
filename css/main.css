@@ -411,7 +411,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: ;
+  width: 45%;
   justify-content: flex-start;
 }
 
@@ -515,6 +515,58 @@ footer .copyright {
 
 @media only screen and (min-width: 1200px) {
 /*Desktop styles here*/
+
+/* General styles */
+
+.content-wrapper {
+  max-width: 960px;
+}  
+/* Header*/
+
+
+
+/* Hero area */
+
+
+
+/* Aside*/
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 33%;
+}
+
+/* Features */
+
+.features .features-item-description {
+  width: 20%;
+}
+
+
+/* Reviews */
+
+
+
+/* Footer */
+
+footer .content-wrapper {
+  width: 88%;
+}
+
+footer .copyright {
+  width: 26%;
+}
+
+/* ==========================================================================
+  About Page
+  ========================================================================== */
+
+
+  /* ==========================================================================
+  FAQ Page
+  ========================================================================== */
+
+
 }
 
 
