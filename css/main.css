@@ -413,7 +413,7 @@ header nav ul {
 
 aside .content-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-flow: row nowrap;
 }
 
@@ -421,6 +421,10 @@ aside .content-wrapper .form-description,
 aside .content-wrapper .form {
   width: 45%;
   justify-content: flex-start;
+}
+
+.form h3 {
+  width: 58%;
 }
 
 /* Features */
