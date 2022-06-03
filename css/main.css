@@ -433,7 +433,7 @@ aside .content-wrapper .form {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  flex-basis: ;
+  flex-basis: 50%;
 }
 
 .features .features-item-description {
@@ -519,7 +519,7 @@ footer .copyright {
 }
 
 .faq-content {
-  flex-basis: 40%;
+  flex-basis: 45%;
 }
 
 .faq h2 {
@@ -558,6 +558,10 @@ aside .content-wrapper .form {
 
 .features h2 {
   width: 90%;
+}
+
+.features article {
+  flex-basis: 33%;
 }
 
 .features .features-item-description {
