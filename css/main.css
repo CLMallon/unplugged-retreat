@@ -152,8 +152,16 @@ footer .content-wrapper {
 
 }
 
+.contact h4 {
+  margin: 0;
+}
+
 .social {
 
+}
+
+.social h4 {
+  margin: 0;
 }
 
 footer .social-icons {
