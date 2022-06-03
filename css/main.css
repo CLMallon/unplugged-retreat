@@ -419,7 +419,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 45%;
+  width: 40%;
   justify-content: flex-start;
 }
 
@@ -437,7 +437,7 @@ aside .content-wrapper .form {
 }
 
 .features .features-item-description {
-    width: 25%;
+    width: 62%;
 }
 
 /* Reviews */
@@ -445,6 +445,10 @@ aside .content-wrapper .form {
 .reviews article {
   display: flex;
   justify-content: center;
+}
+
+.reviews article div {
+  width: 49%;
 }
 
 /* Footer */
@@ -460,7 +464,7 @@ footer .content-wrapper {
 }
 
 footer .copyright {
-  width: 25%;
+  width: 100%;
 }
 
 /* ==========================================================================
@@ -474,7 +478,7 @@ footer .copyright {
 }
 
 .mission-content p {
-    width: 46%;
+    width: 45%;
 }
 
 .mission .content-wrapper h2 {
@@ -539,25 +543,33 @@ footer .copyright {
 
 /* Hero area */
 
-
+.hero-area h1 {
+  width: 60%;
+}
 
 /* Aside*/
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 33%;
+  width: 30%;
 }
 
 /* Features */
 
+.features h2 {
+  width: 90%;
+}
+
 .features .features-item-description {
-  width: 20%;
+  width: ;
 }
 
 
 /* Reviews */
 
-
+.reviews article div {
+  width: 42%;
+}
 
 /* Footer */
 
@@ -573,11 +585,18 @@ footer .copyright {
   About Page
   ========================================================================== */
 
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+      width: 95%;
+  } 
 
   /* ==========================================================================
   FAQ Page
   ========================================================================== */
 
+  .faq h2 {
+    width: 100%;
+  }
 
 }
 
