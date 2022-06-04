@@ -442,7 +442,7 @@ aside .content-wrapper .form {
 
 .reviews article {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .reviews article div {
