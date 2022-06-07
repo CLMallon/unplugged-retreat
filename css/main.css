@@ -381,11 +381,12 @@ aside {
 /* General styles */
 
 html {
-	
+	font-size: 16px;
 }
  
 body {
  font-family: 'Open Sans', sans-serif;
+ -webkit-flow-into: 1em;
 }
  
 ul, 
@@ -399,15 +400,17 @@ a {
  
 h2 {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
 }
  
 p {
-	
+	font-size: 0.875em;
 }
 
 img {
@@ -507,6 +510,12 @@ footer .content-wrapper {
 footer .copyright {
   width: 100%;
 }
+
+address p,
+.copyright p {
+  font-size: 1.02098em;
+}
+
 
 /* ==========================================================================
    About Page
