@@ -147,6 +147,7 @@ footer {
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
+  background-color: #202322;
 }
 
 
@@ -246,6 +247,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #517158;
 }
 
 .form-description {
@@ -311,6 +313,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h3 {
@@ -325,6 +328,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #517158;
 }
 
 .contact-section{
@@ -332,6 +336,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 /* ==========================================================================
@@ -343,6 +348,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #517159;
 }
 
 .faq .content-wrapper {
