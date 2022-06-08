@@ -139,6 +139,14 @@ address {
   width: 90%;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0
+}
+
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header {
