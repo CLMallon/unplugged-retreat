@@ -111,16 +111,19 @@ footer {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  line-height: 1.1666;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  line-height: 1.2222;
 }
  
 p {
 	font-size: 0.875em;
+  line-height: 1.2857;
 }
 
 header .content-wrapper {
