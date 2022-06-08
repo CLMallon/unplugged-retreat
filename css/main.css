@@ -104,6 +104,7 @@ ol {
  list-style-type: none;
  font-size: 1.125em;
  font-weight: bold;
+ text-transform: uppercase;
 }
 
 a {
