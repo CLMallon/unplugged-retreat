@@ -250,8 +250,14 @@ footer p {
 
 /* -------- Mobile Styles - Homepage ----------*/
 
-main {
+/* Header Area */
 
+header figure {
+  width: 61%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Hero Area */
@@ -351,6 +357,8 @@ input[type=button] {
 .reviews h3 {
   width: 55%;
 }
+
+
 /* ==========================================================================
    About Page
    ========================================================================== */
