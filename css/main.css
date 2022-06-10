@@ -702,7 +702,9 @@ footer .copyright {
 }  
 /* Header*/
 
-
+header img{
+  width: 85%;
+}
 
 /* Hero area */
 
