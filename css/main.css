@@ -539,6 +539,10 @@ header nav ul {
   justify-content: space-between;
 }
 
+header figure {
+  width: 35%;
+}
+
 /* Hero Area */
 
 /* Aside */
@@ -574,13 +578,38 @@ aside .content-wrapper .form {
 
 /* Reviews */
 
+.reviews .content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.reviews h2 {
+  width: 73%;
+}
+
 .reviews article {
   display: flex;
   justify-content: flex-start;
+  width: 48%;
 }
 
 .reviews article div {
-  width: 49%;
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 0;
+}
+
+.reviews figure {
+  width: 52%;
 }
 
 /* Footer */
