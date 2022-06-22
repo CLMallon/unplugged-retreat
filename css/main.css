@@ -248,6 +248,17 @@ footer p {
   font-size: 1.02098em
 }
 
+.social-icons i {
+  font-size: 1em;
+  background-color: #517158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* -------- Mobile Styles - Homepage ----------*/
 
 /* Header Area */
