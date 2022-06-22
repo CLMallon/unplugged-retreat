@@ -349,7 +349,9 @@ input[type=button] {
 }
 
 .fontawesome-icon {
-
+  display: flex;
+  margin: 0;
+  justify-content: center;
 }
 
 .features-item-description {
