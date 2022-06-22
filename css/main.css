@@ -356,6 +356,7 @@ input[type=button] {
 
 .features-item-description {
   margin: 0;
+  text-align: center;
 }
 
 .features i {
@@ -602,12 +603,17 @@ aside .content-wrapper .form {
 .features article {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
+  align-items: center;
+  flex-flow: column wrap;
   flex-basis: 50%;
 }
 
 .features .features-item-description {
     width: 62%;
+}
+
+.fontawesome-icon {
+  width: 62%;
 }
 
 /* Reviews */
