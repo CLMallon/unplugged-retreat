@@ -667,7 +667,7 @@ aside .content-wrapper .form {
 .reviews article {
   display: flex;
   justify-content: flex-start;
-  width: 48%;
+  width: 49%;
 }
 
 .reviews article div {
@@ -684,7 +684,8 @@ aside .content-wrapper .form {
 }
 
 .reviews figure {
-  width: 52%;
+  width: 49%;
+  padding-right: 10px;
 }
 
 /* Footer */
@@ -706,6 +707,11 @@ footer .copyright {
 .social {
   width: 32%;
   padding-top: 0;
+}
+
+.copyright p {
+  text-align: center;
+  padding-top: 50px;
 }
 
 /* ==========================================================================
