@@ -567,6 +567,9 @@ figure {
 address {
  
 }
+h3, h4 {
+  font-size: 1.5em;
+}
 
 .content-wrapper {
   max-width: 640px;
@@ -600,6 +603,10 @@ header figure {
 
 /* Hero Area */
 
+.hero-area h1 {
+  font-size: 3em;
+}
+
 /* Aside */
 
 aside .content-wrapper {
@@ -616,7 +623,7 @@ aside .content-wrapper .form {
 }
 
 .form h3 {
-  width: 58%;
+  width: 70%;
 }
 
 /* Features */
@@ -790,7 +797,7 @@ footer .copyright {
 }  
 /* Header*/
 
-header img{
+header img {
   width: 85%;
 }
 
@@ -798,9 +805,14 @@ header img{
 
 .hero-area h1 {
   width: 60%;
+  padding-bottom: 442px;
 }
 
 /* Aside*/
+
+aside .content-wrapper {
+  justify-content: space-around;
+}
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
@@ -817,6 +829,14 @@ aside .content-wrapper .form {
   flex-basis: 33%;
 }
 
+.features .features-items {
+  padding-top: 62px;
+}
+
+.features i {
+  margin-bottom: 27px;
+}
+
 .features .features-item-description {
   
 }
@@ -825,8 +845,22 @@ aside .content-wrapper .form {
 /* Reviews */
 
 .reviews article div {
-  width: 42%;
+  width: 75%;
 }
+
+.reviews article {
+  width: 43%;
+  justify-content: center;
+}
+
+.reviews h3 {
+  padding-bottom: 68px;
+}
+
+.reviews h3 {
+  width: 80%;
+}
+
 
 /* Footer */
 
