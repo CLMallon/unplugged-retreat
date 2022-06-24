@@ -686,7 +686,7 @@ aside .content-wrapper .form {
 }
 
 .reviews h3 {
-  width: 55%;
+  width: 95%;
   margin: 0;
 }
 
@@ -844,6 +844,10 @@ aside .content-wrapper .form {
 
 /* Reviews */
 
+.reviews {
+  padding-bottom: 107px;
+}
+
 .reviews article div {
   width: 75%;
 }
@@ -853,13 +857,15 @@ aside .content-wrapper .form {
   justify-content: center;
 }
 
-.reviews h3 {
-  padding-bottom: 68px;
+.reviews h2 {
+  padding-bottom: 107px;
 }
 
 .reviews h3 {
   width: 80%;
+  padding-bottom: 7px;
 }
+
 
 
 /* Footer */
