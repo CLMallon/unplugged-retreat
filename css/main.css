@@ -915,6 +915,14 @@ footer .copyright {
   width: 21%;
 }
 
+.footer-content h4 {
+  font-size: 2.19em;
+}
+
+.footer-content p {
+  font-size: 1.31px;
+}
+
 /* ==========================================================================
   About Page
   ========================================================================== */
@@ -922,10 +930,23 @@ footer .copyright {
   .mission h2,
   .contact-section .content-wrapper h2 {
       width: 95%;
+      font-size: 3em;
   } 
+
+  .mission-content p {
+    font-size: 1.125em;
+  }
 
   .map figure {
     padding-bottom: 66%;
+  }
+
+  .contact-content h4 {
+    font-size: 2.19em;
+  }
+
+  .contact-content p {
+    font-size: 1.125em;
   }
 
   /* ==========================================================================
