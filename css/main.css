@@ -410,16 +410,13 @@ input[type=button] {
   background-color: #517158;
 }
 
-.contact-section{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  background-color: #2a423a;
+.mission h2 {
+  margin-top: 0;
+  padding-top: 51px;
 }
 
-.contact-content h4 {
-  font-size: 1.3127em;
+.mission-content {
+  padding-bottom: 37px;
 }
 
 .map figure {
@@ -437,6 +434,34 @@ input[type=button] {
   top: 0; 
   left: 0; 
 }
+
+.contact-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #2a423a;
+}
+
+.contact-section h2 {
+  margin: 0;
+}
+
+.contact-content h4 {
+  font-size: 1.3127em;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.contact-content p {
+  margin:0;
+}
+
+.contact-section .content-wrapper {
+  padding: 51px 0;
+}
+
+
 
 /* ==========================================================================
    FAQ Page
