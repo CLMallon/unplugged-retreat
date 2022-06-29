@@ -878,6 +878,24 @@ aside .content-wrapper .form {
   width: 30%;
 }
 
+.form-description h3, 
+.form h3 {
+  font-size: 1.875em;
+  width: 90%;
+}
+
+.form-description p {
+  font-size: 1.125em;
+}
+
+input[type=text] {
+  font-size: 1.125em;
+}
+
+input[type=button] {
+  font-size: 1.45em;
+}
+
 /* Features */
 
 .features h2 {
