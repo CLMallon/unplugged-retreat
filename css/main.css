@@ -633,7 +633,7 @@ header .content-wrapper {
 }
 
 header nav {
-  width: 20%;
+  width: 25%;
 }
 
 header nav ul {
@@ -747,6 +747,10 @@ aside .content-wrapper .form {
   padding-top: 100px;
 }
 
+.footer-content h4 {
+  font-size: 1.75em;
+}
+
 footer .content-wrapper {
   width: 65%;
 }
@@ -818,22 +822,25 @@ footer .copyright {
    FAQ Page
    ========================================================================== */
 
-.faq-content {
-  flex-basis: ;
-}   
 
 .faq .content-wrapper {
   justify-content: space-between;
-  padding: 100px 0;
+  padding: 98px 0 121px 0;
 }
 
 .faq-content {
   flex-basis: 45%;
+  padding-top: 45px;
+}
+
+.faq-content h3 {
+  font-size: 0.875em;
 }
 
 .faq h2 {
   width: 100%;
   margin: 0;
+  font-size: 2.25em;
 }
 
 }
