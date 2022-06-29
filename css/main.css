@@ -882,10 +882,12 @@ aside .content-wrapper .form {
 .form h3 {
   font-size: 1.875em;
   width: 90%;
+  margin-bottom: 15px;
 }
 
 .form-description p {
   font-size: 1.125em;
+  margin: 0;
 }
 
 input[type=text] {
