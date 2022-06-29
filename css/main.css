@@ -862,8 +862,9 @@ header img {
 /* Hero area */
 
 .hero-area h1 {
-  width: 60%;
+  width: 75%;
   padding-bottom: 442px;
+  font-size: 3.75em;
 }
 
 /* Aside*/
