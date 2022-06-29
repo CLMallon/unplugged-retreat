@@ -980,6 +980,15 @@ footer .copyright {
 
   .faq h2 {
     width: 100%;
+    font-size: 3em;
+  }
+
+  .faq-content h3 {
+    font-size: 1.125em;
+  }
+
+  .faq-content p {
+    font-size: 1.125em;
   }
 
 }
