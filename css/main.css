@@ -902,6 +902,7 @@ input[type=button] {
 
 .features h2 {
   width: 90%;
+  font-size: 2.25em;
 }
 
 .features article {
@@ -916,8 +917,8 @@ input[type=button] {
   margin-bottom: 27px;
 }
 
-.features .features-item-description {
-  
+.features-item-description p {
+  font-size: 1.125em;
 }
 
 
@@ -938,11 +939,17 @@ input[type=button] {
 
 .reviews h2 {
   padding-bottom: 107px;
+  font-size: 2.25em;
 }
 
 .reviews h3 {
   width: 80%;
   padding-bottom: 7px;
+  font-size: 1.875em;
+}
+
+.reviews p {
+  font-size: 1.125em;
 }
 
 
