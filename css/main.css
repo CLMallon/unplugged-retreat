@@ -204,10 +204,6 @@ footer .content-wrapper {
   text-align: center;
 }
 
-.contact {
-
-}
-
 .contact h4 {
   margin: 0;
   font-size: 1.3127em;
@@ -300,10 +296,6 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   background-color: #517158;
-}
-
-.form-description {
-
 }
 
 aside .form {
@@ -595,22 +587,7 @@ input[type=button] {
 /*Tablet styles here*/
 
 /* General styles */
- 
-a {
 
-}
-
-img {
- 
-}
- 
-figure {
- 
-}
- 
-address {
- 
-}
 h3, h4 {
   font-size: 1.5em;
 }
