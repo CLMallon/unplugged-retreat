@@ -158,7 +158,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column;
   width: 100%;
   background-color: #202322;
 }
